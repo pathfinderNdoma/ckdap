@@ -1,8 +1,7 @@
-pandas = 1.6.5
-numpy  = 3.2.4
-seaborn = 2.3.1
-joblib = 1.4.2
-pickle = 1.2.3
-scikit-learn =1.5.2
+pandas == 2.2.3
+numpy  == 2.0.2
+seaborn == 0.13.2
+joblib == 1.4.2
+scikit-learn == 1.5.2
 seaborn==0.13.2
 matplotlib==3.9.2

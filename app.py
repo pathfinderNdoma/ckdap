@@ -6,6 +6,8 @@ import joblib  # assuming you're using a saved model
 from sklearn.feature_selection import SelectKBest, f_classif
 import seaborn as sns
 import matplotlib.pyplot as plt
+#import plotly.express as px
+
 
 #Loading pre-trained model and data 
 model = joblib.load('decision_tree_model.pkl')
@@ -17,9 +19,6 @@ df = pd.read_csv('cleanedCKDdataset.csv')
 cat_cols = [col for col in df.columns if df[col].dtype == 'object']
 num_cols = [col for col in df.columns if df[col].dtype != 'object']
 
-import pandas as pd
-import matplotlib.pyplot as plt
-from sklearn.feature_selection import SelectKBest, f_classif
 
 # Sample feature ranking function (replace with your actual feature selection)
 def get_feature_ranking():
