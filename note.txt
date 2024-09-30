@@ -1,0 +1,6 @@
+Any time you want to use your new environment, you first need to go to your project folder (where the .venv directory lives) and run the command to activate it:
+# Windows command prompt
+.venv\Scripts\activate.bat
+
+# Windows PowerShell
+.venv\Scripts\Activate.ps1
